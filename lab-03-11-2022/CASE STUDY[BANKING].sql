@@ -1,6 +1,6 @@
 create database db1;
 use db1;
-create table BankMaster(Acno int primary key, Cname varchar(10) not null ,City varchar(40) default 'hyderabad' , Balance int not null , Branchcode int, foreign key (Branchcode) references Branchs(Branchcode));
+create table BankMaster(Acno int primary key, Cname varchar(10) not null ,City varchar(40) default 'ulhasnagar' , Balance int not null , Branchcode int, foreign key (Branchcode) references Branchs(Branchcode));
 
 create table Branchs(Branchcode int ,location varchar(10) not null ,primary key(Branchcode));
 
@@ -21,11 +21,11 @@ values (10, 'Akshay' ,'Kalyan' ,7000,101 ),
 (50, 'Akash', 'Goregoan', 5500, 101);
 
 insert into  BankTransactions(Acno , Trantype, Trandate, Amt)
-values(10 , 'd' , '22-01-2021' , '18:25:00',50000),
-(20 , 'd' , '02-10-2021' , '19:00:00',70000),
-(30 , 'w' , '26-08-2021' , '18:25:00',90000),
-(20, 'w' , '11-04-2021' , '20:45:00',40000),
-(10 , 'w' , '25-05-2021' , '21:25:00',69000);
+values(10 , 'd' , '22-01-2021' , '07:15:10',30000),
+(20 , 'd' , '02-10-2021' , '15:20:00',80000),
+(30 , 'w' , '26-08-2021' , '23:00:00',60000),
+(20, 'w' , '11-04-2021' , '05:12:25',35000),
+(10 , 'w' , '25-05-2021' , '02:22:20',65000);
 
 
 /*
