@@ -16,14 +16,14 @@ values (101 , 'Kalyan' ),
 insert into BankMaster(Acno ,Cname ,City ,Balance ,Branchcode)
 values (10, 'Akshay' ,'Kalyan' ,7000,101 ),
 (20, 'Raj','Thane', 7250, 102),
-(30, 'Ravi' ,'Malegaon', 35000,104),
-(40, 'Vidhi','Akola', 71000,102),
-(50, 'Akash', 'Goregoan', 5500, 101);
+(30, 'Ravi' ,'Malegaon', 35000,103),
+(40, 'Vidhi','Akola', 71000,103),
+(50, 'Akash', 'Goregoan', 5500, 104);
 
 insert into  BankTransactions(Acno , Trantype, Trandate, Amt)
 values(10 , 'd' , '22-01-2021' , '07:15:10',30000),
 (20 , 'd' , '02-10-2021' , '15:20:00',80000),
-(30 , 'w' , '26-08-2021' , '23:00:00',60000),
+(40 , 'w' , '26-08-2021' , '23:00:00',60000),
 (20, 'w' , '11-04-2021' , '05:12:25',35000),
 (10 , 'w' , '25-05-2021' , '02:22:20',65000);
 
